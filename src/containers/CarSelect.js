@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Router from '../Router';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class App extends React.Component {
+class CarSelect extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Car Tetris, go!!!!!!</Text>
-      </View>
+      <Text>
+        Tetris go!!
+      </Text>
     );
   }
 }
@@ -19,3 +20,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default CarSelect;
